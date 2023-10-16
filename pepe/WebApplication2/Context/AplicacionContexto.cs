@@ -2,6 +2,8 @@
 using WebApplication2.Models;
 using WebApplication2.Modelss;
 using WebApplication2.Modelsss;
+using WebApplication2.Modelssss;
+
 
 namespace WebApplication2.Context
 {
@@ -14,5 +16,7 @@ namespace WebApplication2.Context
         public DbSet<Estudiante> estudiante { get; set; }
         public DbSet<Docente> docente { get; set; }
         public DbSet<Universidad> universidad { get; set; }
+        public DbSet<Materia> materia { get; set; }
+
     }
 }
